@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.fnrco.musaneda</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>مساندة للخدمات</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>musaneda services</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string>ic_launcher</string>
+			<key>CFBundleURLName</key>
+			<string>com.fnrco.musaneda.payments</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.fnrco.musaneda.payments</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>3</string>
+
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>com.fnrco.musaneda.payments</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_dartobservatory._tcp</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>نحتاج إلى الوصول إلى الكاميرا في تطبيق &quot;مساندة للخدمات&quot; لتمكينك من مسح المستندات وتحميلها عند فتح تذاكر الدعم الفني. سيتم استخدام الكاميرا فقط لأغراض التصوير وتحميل المستندات ذات الصلة بالتذاكر الفنية. نحن نضمن حفظ خصوصيتك وعدم مشاركة الصور أو المعلومات الشخصية مع أي جهات خارجية.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>نحتاج إلى الوصول إلى موقعك الجغرافي لتحديد عنوانك لأغراض الطلبات والتسليم. سيتم استخدام هذه المعلومات فقط من قبل تطبيق  مساندة للخدمات ولن يتم مشاركتها مع أي جهات خارجية. نحن نضمن حفظ خصوصيتك وسرية معلوماتك الشخصية.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>نحتاج إلى الوصول إلى موقعك الجغرافي عند استخدام تطبيق &quot;مساندة للخدمات&quot; لتحديد عنوانك وتوفير خدمات الطلبات والتسليم. سيتم استخدام هذه المعلومات فقط في نطاق استخدام التطبيق ولن يتم مشاركتها مع أي جهات خارجية. نحن نحافظ على خصوصيتك ونحمي معلوماتك الشخصية بأقصى درجات السرية والأمان.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>نحتاج إلى الوصول إلى مكتبة الصور في جهازك عند استخدام تطبيق &quot;مساندة للخدمات&quot; لتحميل ملفات الصور المرتبطة بتذاكر الدعم الفني. سيتم استخدام مكتبة الصور فقط لأغراض تحميل الملفات وعرضها ضمن تذاكر الدعم. نحن نضمن حفظ خصوصيتك وعدم مشاركة الصور أو المعلومات الشخصية مع أي جهات خارجية.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Main.storyboard</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

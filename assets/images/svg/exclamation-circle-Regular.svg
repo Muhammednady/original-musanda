@@ -1,0 +1,4 @@
+<svg id="exclamation-circle-Regular" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect id="Path" width="32" height="32" fill="rgba(255,255,255,0)"/>
+  <path id="exclamation-circle-Regular_1_" d="M314.25,1084.25a13,13,0,1,0,13,13A13.015,13.015,0,0,0,314.25,1084.25Zm0,24a11,11,0,1,1,11-11A11.013,11.013,0,0,1,314.25,1108.25Zm1.333-5.667a1.333,1.333,0,1,1-1.333-1.333A1.334,1.334,0,0,1,315.583,1102.583Zm-2.333-5.333v-5.333a1,1,0,0,1,2,0v5.333a1,1,0,0,1-2,0Z" transform="translate(-298.25 -1081.25)" fill="#ffae0c" stroke="#ffae0c" stroke-width="1"/>
+</svg>

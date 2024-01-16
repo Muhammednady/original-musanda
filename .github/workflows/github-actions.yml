@@ -1,0 +1,35 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.10.5'
+
+      - name: Set up environment variables
+        env:
+          MAIN_BRANCH_ENV: ${{ secrets.MAIN_BRANCH_ENV }}
+          DEV_BRANCH_ENV: ${{ secrets.DEV_BRANCH_ENV }}
+        run: |
+          echo "MAIN_BRANCH_ENV=$MAIN_BRANCH_ENV" >> $GITHUB_ENV
+          echo "DEV_BRANCH_ENV=$DEV_BRANCH_ENV" >> $GITHUB_ENV
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Analyze code
+        run: flutter analyze

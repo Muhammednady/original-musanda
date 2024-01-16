@@ -1,0 +1,16 @@
+<svg id="Component_22_1_Toggle_State_" data-name="Component 22 – 1 (Toggle State)" xmlns="http://www.w3.org/2000/svg" width="335" height="42" viewBox="0 0 335 42">
+  <g id="Group_16132" data-name="Group 16132">
+    <g id="Group_16130" data-name="Group 16130">
+      <g id="Group_8278" data-name="Group 8278">
+        <g id="Group_20" data-name="Group 20">
+          <rect id="Rectangle_2" data-name="Rectangle 2" width="335" height="42" rx="8" fill="#fff"/>
+        </g>
+      </g>
+      <text id="Your_Email" data-name="Your Email" transform="translate(293.51 25.5)" fill="#373636" font-size="12" font-family="Montserrat-Arabic-Regular, Montserrat-Arabic"><tspan x="0" y="0">بحث</tspan></text>
+    </g>
+  </g>
+  <g id="search-Regular" transform="translate(10 10)">
+    <rect id="Path" width="24" height="24" fill="rgba(255,255,255,0)"/>
+    <path id="search-Regular_1_" d="M272.53,1030.469l-4.694-4.694a8.263,8.263,0,1,0-1.061,1.061l4.694,4.694a.75.75,0,0,0,1.061-1.061Zm-17.78-9.969a6.75,6.75,0,1,1,6.75,6.75A6.758,6.758,0,0,1,254.75,1020.5Z" transform="translate(-251 -1010)" fill="#ce0c3d"/>
+  </g>
+</svg>

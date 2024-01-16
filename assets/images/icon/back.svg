@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <g id="Group_74621" data-name="Group 74621" transform="translate(-326 -51)">
+        <path id="Path_46266" data-name="Path 46266" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Z" transform="translate(326 51)" fill="#ce0c3d" opacity="0.95"/>
+        <path id="icon-arrow-left" d="M6.8,17.2l.793.793a.854.854,0,0,0,1.211,0l6.942-6.939a.854.854,0,0,0,0-1.211L8.8,2.9a.854.854,0,0,0-1.211,0L6.8,3.692a.858.858,0,0,0,.014,1.225l4.3,4.1H.854A.855.855,0,0,0,0,9.873v1.143a.855.855,0,0,0,.857.857H11.117l-4.3,4.1A.852.852,0,0,0,6.8,17.2Z" transform="translate(333.003 55.353)" fill="#fff"/>
+    </g>
+</svg>
